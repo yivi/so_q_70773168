@@ -1,0 +1,4 @@
+services:
+  App\Service\Fooverse:
+    arguments:
+      $importantDependency: !php/const App\Service\Fooverse::PROD
